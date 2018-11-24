@@ -1,0 +1,19 @@
+<!--pages/help/help.wxml-->
+<view class='root'>
+  <image class='imgbg' src='/imgs/StarryNight.jpg' mode="aspectFill"></image>
+  <view class='help'>
+    <text class='help-text'>
+很简单哒
+
+红色框框是输入正常的文字的地方,而且只对输入的英文有效喔
+
+蓝色框框是输出转换后的毛 大可爱!~ 的地方.
+
+当然,二者是可以互相转换的哦.
+
+毛毛也可以当面问尧老师怎么玩
+
+欢迎给尧老师提Bug~
+</text>
+  </view>
+</view>

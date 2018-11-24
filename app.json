@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+
+    "pages/help/help"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FC819A",
+    "navigationBarTitleText": "毛大可爱的摩尔斯",
+    "navigationBarTextStyle": "white"
+  }
+}

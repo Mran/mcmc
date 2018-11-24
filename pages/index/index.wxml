@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="human-text">
+    <view class='human-text-outside'>
+      <view class='human-text-inside'>
+      <textarea class='human-input' placeholder="AnnnMao"value="{{humanText}}" bindinput="humanInput" maxlength='-1'></textarea>
+      </view>
+    </view>
+  </view>
+ <view class="morse-text">
+    <view class='morse-text-outside'>
+      <view class='morse-text-inside'>
+      <textarea class='morse-input' placeholder="毛 大可爱!~大可爱!毛 ~大可爱!毛 ~大可爱!毛 ~大可爱!大可爱!~毛 大可爱!~大可爱!大可爱!大可爱!~" value='{{morseText}}' bindinput="morseInput" maxlength='-1'></textarea>
+      </view>
+    </view>
+  </view>
+  <view class="help" bindtap='jumpToHelp'>
+  <text class='maomao'>教毛毛怎么玩</text>
+  </view>
+
+</view>

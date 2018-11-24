@@ -1,0 +1,38 @@
+/* pages/help/help.wxss */
+
+.root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.imgbg {
+  width: 100vw;
+  height: 100vh;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  size: 32rpx;
+  color: white;
+  text-shadow: 2rpx 2rpx 4prx black;
+  font-weight: 300;
+  background-color: rgba(0, 0, 0, 0.452);
+}
+ 
+.help-text {
+
+  margin: 30rpx;
+}
